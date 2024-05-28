@@ -1,0 +1,20 @@
+/* For smartphones (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+    .room {
+        width: calc(50% - 20px);
+    }
+}
+
+/* For tablets, iPads, and larger smartphones */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .room {
+        width: calc(33.33% - 20px);
+    }
+}
+
+/* For computers and larger devices */
+@media only screen and (min-width: 1024px) {
+    .room {
+        width: calc(25% - 40px);
+    }
+}
